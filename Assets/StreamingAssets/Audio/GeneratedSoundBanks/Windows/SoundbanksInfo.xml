@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Wwise\Projects\Netease Minigame 2020\</ProjectRoot>
+		<SourceFilesRoot>D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unity\Projects\Netease MiniGame 2020\MG\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Wwise\Projects\Netease Minigame 2020\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1069431850" Language="SFX" Hash="609060570">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
+			<ShortName>Player</ShortName>
+			<Path>Player.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1913845150" Name="Move_Wheel" ObjectPath="\Events\Player\Move_Wheel" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="729295303" Language="SFX">
+							<ShortName>World\Player\Movement\Player_Wheel_Grass.wav</ShortName>
+							<Path>SFX\World\Player\Movement\Player_Wheel_Grass_5D78CF65.wem</Path>
+						</File>
+						<File Id="737398636" Language="SFX">
+							<ShortName>World\Player\Movement\Player_Wheel_Wood.wav</ShortName>
+							<Path>SFX\World\Player\Movement\Player_Wheel_Wood_7D5C5D41.wem</Path>
+						</File>
+						<File Id="911761745" Language="SFX">
+							<ShortName>World\Player\Movement\Player_Wheel_Layer_01.wav</ShortName>
+							<Path>SFX\World\Player\Movement\Player_Wheel_Layer_01_3237FB8F.wem</Path>
+						</File>
+						<File Id="925914251" Language="SFX">
+							<ShortName>World\Player\Movement\Player_Wheel_Layer_02.wav</ShortName>
+							<Path>SFX\World\Player\Movement\Player_Wheel_Layer_02_150546FB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{D8F1E12C-EC1E-4ED1-850A-B72D1AF90869}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{85046E37-5F3E-432F-AA00-104DA69BD5F9}">
+							<Media>
+								<File Id="737398636"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DB8D86FF-BB5D-43DE-8F7C-90DFC2EEBBBD}">
+							<Media>
+								<File Id="729295303"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="1230601154" Name="Surface_Material" ObjectPath="\Switches\Default Work Unit\Surface_Material">
+					<Switches>
+						<Switch Id="782826392" Name="Default" ObjectPath="\Switches\Default Work Unit\Surface_Material\Default"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface_Material\Grass"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Surface_Material\Wood"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3192274427">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1521415680" Name="Junkyard_Amb_ER" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Region_Farm\Junkyard_Amb_ER"/>
+				<AuxBus Id="3330791030" Name="UI_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\UI\UI_Aux\UI_Reverb"/>
+				<AuxBus Id="4062407475" Name="Forest_Amb_ER" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Region_Farm\Forest_Amb_ER"/>
+			</IncludedAuxBusses>
+			<StateGroups>
+				<StateGroup Id="627588647" Name="IsInFragSystem" ObjectPath="\States\Default Work Unit\IsInFragSystem">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\IsInFragSystem\None"/>
+						<State Id="3783352507" Name="InFragSystem" ObjectPath="\States\Default Work Unit\IsInFragSystem\InFragSystem"/>
+						<State Id="3420898246" Name="NotInFragSystem" ObjectPath="\States\Default Work Unit\IsInFragSystem\NotInFragSystem"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="2948602617" Language="SFX" Hash="3716677590">
+			<ObjectPath>\SoundBanks\Default Work Unit\Farm</ObjectPath>
+			<ShortName>Farm</ShortName>
+			<Path>Farm.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3692192059" Name="Ambient_Farm_Junkyard" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Junkyard" MaxAttenuation="75.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="74203828" Language="SFX">
+							<ShortName>World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_03.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_03_10C4C929.wem</Path>
+						</File>
+						<File Id="113877494" Language="SFX">
+							<ShortName>World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_02.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_02_10C4C929.wem</Path>
+						</File>
+						<File Id="118645535" Language="SFX">
+							<ShortName>World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_06.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_06_10C4C929.wem</Path>
+						</File>
+						<File Id="370924049" Language="SFX">
+							<ShortName>World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_05.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_05_10C4C929.wem</Path>
+						</File>
+						<File Id="615454083" Language="SFX">
+							<ShortName>World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_04.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_04_10C4C929.wem</Path>
+						</File>
+						<File Id="702928740" Language="SFX">
+							<ShortName>World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_01.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1521415680" Name="Junkyard_Amb_ER" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Region_Farm\Junkyard_Amb_ER"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2121045725" Name="Ambient_Farm_River" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Ambient_Farm_River" MaxAttenuation="50.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="422341550" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_River_Layer_Distant.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_River_Layer_Distant_A579A7D7.wem</Path>
+						</File>
+						<File Id="584561460" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_River_Layer_Close.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_River_Layer_Close_27B85C15.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2024927214" Name="Ambient_Farm_Sheep" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Sheep" MaxAttenuation="50.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="338539632" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Sheep_03.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Sheep_03_10C4C929.wem</Path>
+						</File>
+						<File Id="382845426" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Sheep_01.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Sheep_01_10C4C929.wem</Path>
+						</File>
+						<File Id="841182549" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Sheep_02.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Sheep_02_10C4C929.wem</Path>
+						</File>
+						<File Id="854799624" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Sheep_04.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Sheep_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2398628817" Name="Ambient_Farm_Spring_Waterfall" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Spring_Waterfall" MaxAttenuation="50.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="422341550" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_River_Layer_Distant.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_River_Layer_Distant_A579A7D7.wem</Path>
+						</File>
+						<File Id="1043752405" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Spring_Waterfall_Close.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Spring_Waterfall_Close_6723E47B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4239739323" Name="Ambient_Farm_Spring_Wind" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Spring_Wind" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="880495129" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Spring_Bck_Wind.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Spring_Bck_Wind_77BD319B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3507301343" Name="Ambient_Farm_Wind" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Wind" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="427605362" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bck_Wind_Loop_ExSpring.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bck_Wind_Loop_ExSpring_8C35FA83.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="475866890" Name="Farm_Bird_Talk" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Farm_Bird_Talk" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1012278" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bird_Talk_05.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bird_Talk_05_10C4C929.wem</Path>
+						</File>
+						<File Id="60502415" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bird_Talk_04.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bird_Talk_04_10C4C929.wem</Path>
+						</File>
+						<File Id="354666106" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bird_Talk_08.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bird_Talk_08_10C4C929.wem</Path>
+						</File>
+						<File Id="507022153" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bird_Talk_06.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bird_Talk_06_10C4C929.wem</Path>
+						</File>
+						<File Id="514517926" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bird_Talk_02.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bird_Talk_02_10C4C929.wem</Path>
+						</File>
+						<File Id="670159975" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bird_Talk_07.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bird_Talk_07_10C4C929.wem</Path>
+						</File>
+						<File Id="698124345" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bird_Talk_01.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bird_Talk_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1057264540" Language="SFX">
+							<ShortName>World\Environment\Farm\Farm_Bird_Talk_03.wav</ShortName>
+							<Path>SFX\World\Environment\Farm\Farm_Bird_Talk_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4062407475" Name="Forest_Amb_ER" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\Aux\Region_Farm\Forest_Amb_ER"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2513196801" Name="Music_Farm" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Music_Farm" DurationType="OneShot" DurationMin="90.000000" DurationMax="90.000000">
+					<IncludedMemoryFiles>
+						<File Id="343607288" Language="SFX">
+							<ShortName>Non-World\Music\Farm_Music.wav</ShortName>
+							<Path>SFX\Non-World\Music\Farm_Music_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="247519749" Name="Music_Farm_Loop_Delayed" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Music_Farm_Loop_Delayed" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="343607288" Language="SFX">
+							<ShortName>Non-World\Music\Farm_Music.wav</ShortName>
+							<Path>SFX\Non-World\Music\Farm_Music_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2737842918" Name="Music_Farm_Openning" ObjectPath="\Events\Ambient\SoundBankSpecific\Farm\Music_Farm_Openning" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="343607288" Language="SFX">
+							<ShortName>Non-World\Music\Farm_Music.wav</ShortName>
+							<Path>SFX\Non-World\Music\Farm_Music_10C4C929.wem</Path>
+						</File>
+						<File Id="438336519" Language="SFX">
+							<ShortName>Music_Farm_IntroWithSFX.wav</ShortName>
+							<Path>SFX\Music_Farm_IntroWithSFX_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3472912007" Name="PlayerDistance" ObjectPath="\Game Parameters\Default Work Unit\PlayerDistance"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="504655520">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4105522414" Name="FragSystem_Center" ObjectPath="\Events\UI\FragSystem_Center" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="824021769" Language="SFX">
+							<ShortName>Non-World\UI\UI_FragSystem_Center.wav</ShortName>
+							<Path>SFX\Non-World\UI\UI_FragSystem_Center_F14E4C30.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1249228668" Name="FragSystem_Center_01" ObjectPath="\Events\UI\FragSystem_Center_01" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="824021769" Language="SFX">
+							<ShortName>Non-World\UI\UI_FragSystem_Center.wav</ShortName>
+							<Path>SFX\Non-World\UI\UI_FragSystem_Center_F14E4C30.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4260685691" Name="FragSystem_Confirm" ObjectPath="\Events\UI\FragSystem_Confirm" DurationType="OneShot" DurationMin="0.387098" DurationMax="0.387098">
+					<IncludedMemoryFiles>
+						<File Id="895672630" Language="SFX">
+							<ShortName>Non-World\UI\UI_FragSystem_Confirm.wav</ShortName>
+							<Path>SFX\Non-World\UI\UI_FragSystem_Confirm_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3312863084" Name="FragSystem_OnHover" ObjectPath="\Events\UI\FragSystem_OnHover" DurationType="OneShot" DurationMin="0.290000" DurationMax="0.290000">
+					<IncludedMemoryFiles>
+						<File Id="114216935" Language="SFX">
+							<ShortName>Non-World\UI\UI_FragSystem_OnHover.wav</ShortName>
+							<Path>SFX\Non-World\UI\UI_FragSystem_OnHover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2321830762" Name="FragSystem_Result" ObjectPath="\Events\UI\FragSystem_Result" DurationType="OneShot" DurationMin="0.833333" DurationMax="0.833333">
+					<IncludedMemoryFiles>
+						<File Id="610973659" Language="SFX">
+							<ShortName>Non-World\UI\UI_FragSystem_Result.wav</ShortName>
+							<Path>SFX\Non-World\UI\UI_FragSystem_Result_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="216067002" Name="UI_Confirm" ObjectPath="\Events\UI\UI_Confirm" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<IncludedMemoryFiles>
+						<File Id="335460551" Language="SFX">
+							<ShortName>Non-World\UI\UI Confirm.wav</ShortName>
+							<Path>SFX\Non-World\UI\UI Confirm_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3330791030" Name="UI_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\UI\UI_Aux\UI_Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2774129122" Name="UI_Select" ObjectPath="\Events\UI\UI_Select" DurationType="OneShot" DurationMin="0.219178" DurationMax="0.219178">
+					<IncludedMemoryFiles>
+						<File Id="530930870" Language="SFX">
+							<ShortName>Non-World\UI\UI Click 1.wav</ShortName>
+							<Path>SFX\Non-World\UI\UI Click 1_77DFE251.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3330791030" Name="UI_Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Non-World\UI\UI_Aux\UI_Reverb"/>
+					</AuxBusSends>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3604647259" Language="SFX" Hash="1314829742">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainMenu</ObjectPath>
+			<ShortName>MainMenu</ShortName>
+			<Path>MainMenu.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1929327811" Name="MainMenu_Music" ObjectPath="\Events\Main Menu\MainMenu_Music" DurationType="OneShot" DurationMin="110.501678" DurationMax="110.501678">
+					<IncludedMemoryFiles>
+						<File Id="236418568" Language="SFX">
+							<ShortName>Non-World\Music\Music_Theme.wav</ShortName>
+							<Path>SFX\Non-World\Music\Music_Theme_2DD70135.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="619782462" Name="Theme_Music_Release" ObjectPath="\Events\Main Menu\Theme_Music_Release" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1913845150	Move_Wheel			\Player\Move_Wheel	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1230601154	Surface_Material			\Default Work Unit\Surface_Material	
+
+Switch	ID	Name	Switch Group			Notes
+	782826392	Default	Surface_Material			
+	2058049674	Wood	Surface_Material			
+	4248645337	Grass	Surface_Material			
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	1045381823	Player_(De)Acceleration			\Default Work Unit\Player_(De)Acceleration	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	729295303	Player_Wheel_Grass	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Player\Movement\Player_Wheel_Grass_5D78CF65.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player_Move\Player_Move_Ground_Layer\Player_Wheel_Grass		681192
+	737398636	Player_Wheel_Wood	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Player\Movement\Player_Wheel_Wood_7D5C5D41.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player_Move\Player_Move_Ground_Layer\Player_Wheel_Wood		2910728
+	911761745	Player_Wheel_Layer_01	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Player\Movement\Player_Wheel_Layer_01_3237FB8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player_Move\Player_Move_Base\Player_Wheel_Layer_01		352928
+	925914251	Player_Wheel_Layer_02	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Player\Movement\Player_Wheel_Layer_02_150546FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player_Move\Player_Move_Base\Player_Wheel_Layer_02		529328
+

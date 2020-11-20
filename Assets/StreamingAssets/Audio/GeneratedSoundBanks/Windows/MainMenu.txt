@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	619782462	Theme_Music_Release			\Main Menu\Theme_Music_Release	
+	1929327811	MainMenu_Music			\Main Menu\MainMenu_Music	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	481118286	Music_Fade			\Default Work Unit\Music_Fade	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	236418568	Music_Theme	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Non-World\Music\Music_Theme_2DD70135.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\Music\Music_Theme		19492560
+

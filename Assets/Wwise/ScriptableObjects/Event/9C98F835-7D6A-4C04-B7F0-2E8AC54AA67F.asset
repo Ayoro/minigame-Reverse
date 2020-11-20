@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5aeb35de3181b141bbf39e06571e9f6, type: 3}
+  m_Name: 9C98F835-7D6A-4C04-B7F0-2E8AC54AA67F
+  m_EditorClassIdentifier: 
+  objectName: Ambient_Farm_River
+  id: 2121045725
+  guid: 9C98F835-7D6A-4C04-B7F0-2E8AC54AA67F

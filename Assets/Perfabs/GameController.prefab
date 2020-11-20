@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8478954850603654284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8478954850603654274}
+  - component: {fileID: 8478954850603654285}
+  - component: {fileID: 8478954850603654275}
+  - component: {fileID: 8478954850603654272}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8478954850603654274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8478954850603654284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.882372, y: 8.065103, z: -20.02186}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8478954850603654285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8478954850603654284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed51d71593ad8447881f06e50605042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 0}
+  middleground: {fileID: 0}
+  Camera: {fileID: 0}
+  bg_move_speed: 0.9
+  mg_move_speed: 0.8
+--- !u!114 &8478954850603654275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8478954850603654284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5be017ffce9984bbc991b41eabd93b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_point:
+  - {fileID: 0}
+  scene_name: Scene01
+  Player: {fileID: 0}
+--- !u!114 &8478954850603654272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8478954850603654284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e66e322dead4144cb0684617016fccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Frags:
+  - {fileID: 4594417761574531119, guid: e7ee736ce32452c4db6b3961360df75d, type: 3}
+  - {fileID: 798712343388760459, guid: 7b504c4433553314fa198cc6065b5d2f, type: 3}
+  - {fileID: 4022057965338435917, guid: 44f8a4aaad706b6409eb5492e9734c87, type: 3}
+  - {fileID: 1011786508328577314, guid: 7be15a2a1f8b42d4a8f66ede8294a827, type: 3}
+  - {fileID: 1811917539387682806, guid: 201a60235e7af774892a775648e86f2f, type: 3}
+  - {fileID: 6430589559082128499, guid: 72605c527f8bed340b4a07185f516ed3, type: 3}
+  - {fileID: 7635586234809406053, guid: 6c6993ceb2f8a494cb57644c4d3c84e1, type: 3}
+  - {fileID: 2182976094502737597, guid: 2ae6ab613bd011244b83ffbf0bf5926c, type: 3}
+  - {fileID: 1481234584524841067, guid: 52c46ef8b8b370a459e5385909eae3c8, type: 3}
+  - {fileID: 8916123161153118718, guid: 3b85c9e03f5eaad4d8548b041f272abe, type: 3}
+  - {fileID: 5688205654609694611, guid: 30d69e7863feed04eb3119c2f318d145, type: 3}
+  - {fileID: 728116775893413093, guid: 97f40daaed26f7c4ca6e77488efad19e, type: 3}
+  - {fileID: 2303742283170900434, guid: a1cba209d470de348a4d1293e606b217, type: 3}
+  - {fileID: 6696559905163017139, guid: 6d7b15fcc76fb054798c96e22fcbb7dc, type: 3}
+  - {fileID: 4329256363039024368, guid: 7ff918717d4500445b417ea26cff75ba, type: 3}
+  - {fileID: 5037698360555579397, guid: c5d08b021e8fe4f40ba7765506d56478, type: 3}
+  - {fileID: 1667631492473076893, guid: d79346b9ae1c77042b220edbe84bb0f8, type: 3}
+  - {fileID: 3705711013170480237, guid: e0856d3a47464fd4d88841bb7c265ff0, type: 3}
+  - {fileID: 3703394262338811442, guid: 9e95c0003afd0144badaf9d961e75309, type: 3}
+  frag_system: {fileID: 0}
+  event_num: -1
+  hint_title_show_time: 5
+  hint_title: {fileID: 0}
+  Player: {fileID: 0}
+  pause_menu: {fileID: 0}
+  Buttons: []

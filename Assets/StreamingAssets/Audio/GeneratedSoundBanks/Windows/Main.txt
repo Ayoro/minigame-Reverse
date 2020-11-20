@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	216067002	UI_Confirm			\UI\UI_Confirm	
+	1249228668	FragSystem_Center_01			\UI\FragSystem_Center_01	
+	2321830762	FragSystem_Result			\UI\FragSystem_Result	
+	2774129122	UI_Select			\UI\UI_Select	
+	3312863084	FragSystem_OnHover			\UI\FragSystem_OnHover	
+	4105522414	FragSystem_Center			\UI\FragSystem_Center	
+	4260685691	FragSystem_Confirm			\UI\FragSystem_Confirm	
+
+Effect plug-ins	ID	Name	Type				Notes
+	136714882	_500ms_Per_Hour	Wwise Stereo Delay			
+	1144018367	Plate_Large	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	114216935	UI_FragSystem_OnHover	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Non-World\UI\UI_FragSystem_OnHover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\FragSystem\UI_FragSystem_OnHover		51220
+	335460551	UI_Confirm	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Non-World\UI\UI Confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI_Confirm		88264
+	530930870	UI_Select	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Non-World\UI\UI Click 1_77DFE251.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\UI_Select		38728
+	610973659	UI_FragSystem_Result	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Non-World\UI\UI_FragSystem_Result_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\FragSystem\UI_FragSystem_Result		147064
+	824021769	UI_FragSystem_Center	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Non-World\UI\UI_FragSystem_Center_F14E4C30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\FragSystem\UI_FragSystem_Center		1499528
+	895672630	UI_FragSystem_Confirm	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Non-World\UI\UI_FragSystem_Confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\UI\FragSystem\UI_FragSystem_Confirm		68348
+

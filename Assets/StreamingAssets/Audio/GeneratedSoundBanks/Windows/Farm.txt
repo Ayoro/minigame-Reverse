@@ -1,0 +1,45 @@
+Event	ID	Name			Wwise Object Path	Notes
+	247519749	Music_Farm_Loop_Delayed			\Ambient\SoundBankSpecific\Farm\Music_Farm_Loop_Delayed	
+	475866890	Farm_Bird_Talk			\Ambient\SoundBankSpecific\Farm\Farm_Bird_Talk	
+	2024927214	Ambient_Farm_Sheep			\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Sheep	
+	2121045725	Ambient_Farm_River			\Ambient\SoundBankSpecific\Farm\Ambient_Farm_River	
+	2398628817	Ambient_Farm_Spring_Waterfall			\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Spring_Waterfall	
+	2513196801	Music_Farm			\Ambient\SoundBankSpecific\Farm\Music_Farm	
+	2737842918	Music_Farm_Openning			\Ambient\SoundBankSpecific\Farm\Music_Farm_Openning	
+	3507301343	Ambient_Farm_Wind			\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Wind	
+	3692192059	Ambient_Farm_Junkyard			\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Junkyard	
+	4239739323	Ambient_Farm_Spring_Wind			\Ambient\SoundBankSpecific\Farm\Ambient_Farm_Spring_Wind	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3472912007	PlayerDistance			\Default Work Unit\PlayerDistance	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	742749130	Bck_Envolope			\Default Work Unit\Bck_Envolope	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1012278	Farm_Bird_Talk_05	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bird_Talk_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Bird\Farm_Bird_Talk\Farm_Bird_Talk_Word\Farm_Bird_Talk_05		204380
+	60502415	Farm_Bird_Talk_04	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bird_Talk_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Bird\Farm_Bird_Talk\Farm_Bird_Talk_Word\Farm_Bird_Talk_04		116820
+	74203828	Junkyard_Bck_MetalDrop_03	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Bck\Junkyard_Bck_MetalDrop\Junkyard_Bck_MetalDrop_03		1153484
+	113877494	Junkyard_Bck_MetalDrop_02	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Bck\Junkyard_Bck_MetalDrop\Junkyard_Bck_MetalDrop_02		1140312
+	118645535	Junkyard_Bck_MetalDrop_06	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Bck\Junkyard_Bck_MetalDrop\Junkyard_Bck_MetalDrop_06		1409384
+	338539632	Farm_Sheep_03	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Sheep_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Sheep_Loop\Farm_Sheep_Phrase\Farm_Sheep_Word\Farm_Sheep_03		197632
+	343607288	Farm_Music	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Non-World\Music\Farm_Music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\Music\Farm_Music_Loop\Farm_Music		15876064
+	354666106	Farm_Bird_Talk_08	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bird_Talk_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Bird\Farm_Bird_Talk\Farm_Bird_Talk_Word\Farm_Bird_Talk_08		136596
+	370924049	Junkyard_Bck_MetalDrop_05	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Bck\Junkyard_Bck_MetalDrop\Junkyard_Bck_MetalDrop_05		1449836
+	382845426	Farm_Sheep_01	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Sheep_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Sheep_Loop\Farm_Sheep_Phrase\Farm_Sheep_Word\Farm_Sheep_01		296732
+	422341550	Farm_River_Layer_Distant	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_River_Layer_Distant_A579A7D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_River\Farm_River_Layer_Distant		3612800
+	427605362	Farm_Bck_Wind	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bck_Wind_Loop_ExSpring_8C35FA83.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Bck\Farm_Bck_Wind		9430936
+	438336519	Farm_Music_WithIntro	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\Music_Farm_IntroWithSFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-World\Music\Farm_Music_Loop_WithIntro\Farm_Music_WithIntro		19933264
+	507022153	Farm_Bird_Talk_06	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bird_Talk_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Bird\Farm_Bird_Talk\Farm_Bird_Talk_Word\Farm_Bird_Talk_06		241208
+	514517926	Farm_Bird_Talk_02	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bird_Talk_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Bird\Farm_Bird_Talk\Farm_Bird_Talk_Word\Farm_Bird_Talk_02		183676
+	584561460	Farm_River_Layer_Close	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_River_Layer_Close_27B85C15.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_River\Farm_River_Layer_Close		3612800
+	615454083	Junkyard_Bck_MetalDrop_04	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Bck\Junkyard_Bck_MetalDrop\Junkyard_Bck_MetalDrop_04		1597544
+	670159975	Farm_Bird_Talk_07	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bird_Talk_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Bird\Farm_Bird_Talk\Farm_Bird_Talk_Word\Farm_Bird_Talk_07		137244
+	698124345	Farm_Bird_Talk_01	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bird_Talk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Bird\Farm_Bird_Talk\Farm_Bird_Talk_Word\Farm_Bird_Talk_01		266284
+	702928740	Junkyard_Bck_MetalDrop_01	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Junkyard\Junkyard_Bck_MetalDrop_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Bck\Junkyard_Bck_MetalDrop\Junkyard_Bck_MetalDrop_01		1319064
+	841182549	Farm_Sheep_02	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Sheep_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Sheep_Loop\Farm_Sheep_Phrase\Farm_Sheep_Word\Farm_Sheep_02		307220
+	854799624	Farm_Sheep_04	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Sheep_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Sheep_Loop\Farm_Sheep_Phrase\Farm_Sheep_Word\Farm_Sheep_04		206148
+	880495129	Spring_Bck_Wind	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Spring_Bck_Wind_77BD319B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Bck\Spring_Bck_Wind		4151692
+	1043752405	Spring_Waterfall_Close	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Spring_Waterfall_Close_6723E47B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Spring_Waterfall_Close		2255900
+	1057264540	Farm_Bird_Talk_03	D:\Wwise\Projects\Netease Minigame 2020\.cache\Windows\SFX\World\Environment\Farm\Farm_Bird_Talk_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Farm\Emitter\Farm_Bird\Farm_Bird_Talk\Farm_Bird_Talk_Word\Farm_Bird_Talk_03		254080
+
